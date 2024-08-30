@@ -18,7 +18,6 @@ This project is a Python-based password cracker that demonstrates the effectiven
   - [Command-Line Interface](#command-line-interface)
   - [Graphical User Interface](#graphical-user-interface)
 - [Testing](#testing)
-- [Project Structure](#project-structure)
 - [License](#license)
 
 ## Installation
@@ -65,3 +64,6 @@ Unit tests are provided in the tests/ directory. You can run these tests using t
 
 
 python -m unittest discover tests
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
