@@ -1,0 +1,3 @@
+Rockyou.txt to be downloaded from :
+
+https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
