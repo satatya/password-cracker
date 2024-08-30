@@ -38,17 +38,19 @@ bash
 Copy code
 pip install -r requirements.txt
 4.	Download the rockyou.txt wordlist (if you don't have it already):
-Usage
-Command-Line Interface
-You can run the password cracker directly from the command line using main.py.
+
+## Usage<br />
+Command-Line Interface<br />
+You can run the password cracker directly from the command line using main.py : <br />
 python main.py <hashed_password> <algorithm> --method <method> --wordlist <path_to_wordlist>  <br />
 •	<hashed_password>: The hashed password you want to crack.  <br />
 •	<algorithm>: The hashing algorithm (sha224, sha256, md5).  <br />
 •	--method: The cracking method, either brute-force or dictionary.  <br />
 •	--wordlist: Path to the wordlist file (required for dictionary attack).  <br />
 Example:
-python main.py 5f4dcc3b5aa765d61d8327deb882cf99 md5 --method dictionary --wordlist wordlists/rockyou.txt
-Graphical User Interface
+python main.py 5f4dcc3b5aa765d61d8327deb882cf99 md5 --method dictionary --wordlist wordlists/rockyou.txt  <br />
+<br />
+##Graphical User Interface
 The project also includes a tkinter-based GUI for easier interaction.
 python password_cracker_gui.py
 
