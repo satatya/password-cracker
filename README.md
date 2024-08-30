@@ -50,7 +50,7 @@ python main.py <hashed_password> <algorithm> --method <method> --wordlist <path_
 Example:
 python main.py 5f4dcc3b5aa765d61d8327deb882cf99 md5 --method dictionary --wordlist wordlists/rockyou.txt  <br />
 <br />
-##Graphical User Interface
+## Graphical User Interface
 The project also includes a tkinter-based GUI for easier interaction.
 python password_cracker_gui.py
 
