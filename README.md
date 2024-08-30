@@ -41,13 +41,11 @@ pip install -r requirements.txt
 Usage
 Command-Line Interface
 You can run the password cracker directly from the command line using main.py.
-bash
-Copy code
-python main.py <hashed_password> <algorithm> --method <method> --wordlist <path_to_wordlist>
-•	<hashed_password>: The hashed password you want to crack.
-•	<algorithm>: The hashing algorithm (sha224, sha256, md5).
-•	--method: The cracking method, either brute-force or dictionary.
-•	--wordlist: Path to the wordlist file (required for dictionary attack).
+python main.py <hashed_password> <algorithm> --method <method> --wordlist <path_to_wordlist>  <br />
+•	<hashed_password>: The hashed password you want to crack.  <br />
+•	<algorithm>: The hashing algorithm (sha224, sha256, md5).  <br />
+•	--method: The cracking method, either brute-force or dictionary.  <br />
+•	--wordlist: Path to the wordlist file (required for dictionary attack).  <br />
 Example:
 python main.py 5f4dcc3b5aa765d61d8327deb882cf99 md5 --method dictionary --wordlist wordlists/rockyou.txt
 Graphical User Interface
@@ -65,29 +63,3 @@ Unit tests are provided in the tests/ directory. You can run these tests using t
 
 
 python -m unittest discover tests
-Project Structure
-plaintext
-Copy code
-password-cracker/
-├── README.md
-├── requirements.txt
-├── LICENSE
-├── .gitignore
-├── main.py
-├── password_cracker_gui.py
-├── wordlists/
-│   └── rockyou.txt
-├── src/
-│   ├── __init__.py
-│   ├── hash_utils.py
-│   ├── brute_force.py
-│   └── dictionary_attack.py
-├── tests/
-│   ├── __init__.py
-│   ├── test_hash_utils.py
-│   ├── test_brute_force.py
-│   └── test_dictionary_attack.py
-└── docs/
-    ├── project_report.docx
-    └── project_overview.md
-
